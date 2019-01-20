@@ -9,7 +9,7 @@ calls. Majority of the API remains intact, so most of the functions
 have the same naming convention of libconfig including a prepended
 'e'. Some functionality has been added such as *econfig_get_value()*
 and the error and assertion function; the only API change is with
-*econfig_setting_get_value()* which includes a "path" paramter, thus
+*econfig_setting_get_value()* which includes a "path" parameter, thus
 allowing data retrieval for paths relative to a provided setting.
  
 These functions become useful for obtaining configuration information
